@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        
+    .body{
+        height: 300px;
+        width: 250px;
+        background-color: #3d3d5c;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 40px;
+    }
+   .screen{
+    background-color: #68811d;
+    text-align: right;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    
+   }
+   .container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+   .Btn{
+    width: 50px;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 20px;
+    margin: 3PX;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   .Btn:hover{
+    box-shadow: 0 0 5px 0 #fff;
+    transition: 0.5s;
+   }
+   .Btn-equals{
+    background-color: #ff6348;
+    height: 70px;
+    width: 50px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0.5 solid black;
+    cursor: pointer;
+   }
+   .Btn-equals:hover{
+    box-shadow: 0 0 5px 0 #fff;
+    transition: 0.5s;
+
+   }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <input type="text" value="0" class="screen">
+         <div class="container">
+            <button class="Btn">AC</button>
+            <button class="Btn">7</button>
+            <button class="Btn">4</button>
+            <button class="Btn">1</button>
+            <button class="Btn">0</button>
+
+            <button class="Btn">M+</button>
+            <button class="Btn">8</button>
+            <button class="Btn">2</button>
+            <button class="Btn">5</button>
+            <button class="Btn">.</button>
+
+            <button class="Btn">/</button>
+            <button class="Btn">9</button>
+            <button class="Btn">6</button>
+            <button class="Btn">3</button>
+            <button class="Btn">%</button>
+
+            <button class="Btn">X</button>
+            <button class="Btn">-</button>
+            <button class="Btn">+</button>
+            <button class="Btn-equals">=</button>
+           
+            
+         </div>
+
+    </div>
+    
+</body>
+</html>
